@@ -1,5 +1,27 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+Be sure to install required packages:
+
+```bash
+npm install
+```
+
+Be sure to run the backend server first.
+
+To run the backend server, navigate to the `backend` directory and run the following command:
+
+```bash
+cd ../backend
+npm run dev
+```
+
+Then, run the frontend server:
+
+```bash
+cd ../frontend
+npm run dev
+```
+
 ## Getting Started
 
 First, run the development server:

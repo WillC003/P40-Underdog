@@ -180,7 +180,12 @@ export default function Dogs() {
   return (
     <Container maxWidth="lg" sx={{ py: 4 }}>
       <Box display="flex" justifyContent="space-between" alignItems="center" mb={4}>
-        <Typography variant="h4" component="h1" gutterBottom>
+        <Typography 
+          variant="h4" 
+          component="h1" 
+          gutterBottom 
+          sx={{ color: '#000000', fontWeight: 600 }}
+        >
           Dogs Management
         </Typography>
         <Button
